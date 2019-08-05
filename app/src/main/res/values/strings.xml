@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Really Janky App</string>
+    <string name="too_big_images">Too Big Images</string>
+    <string name="optimise_previews">Optimise previews</string>
 </resources>
