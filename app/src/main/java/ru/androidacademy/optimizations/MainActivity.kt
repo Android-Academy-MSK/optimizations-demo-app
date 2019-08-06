@@ -1,8 +1,9 @@
 package ru.androidacademy.optimizations
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.a_main.*
+import ru.androidacademy.optimizations.computeonmain.ComputeOnMainThreadActivity
 import ru.androidacademy.optimizations.toobigimages.TooBigImagesActivity
 
 class MainActivity : AppCompatActivity() {
@@ -13,6 +14,10 @@ class MainActivity : AppCompatActivity() {
 
         btnTooBigImages.setOnClickListener {
             TooBigImagesActivity.start(this)
+        }
+
+        btnComputeOnMain.setOnClickListener {
+            ComputeOnMainThreadActivity.start(this)
         }
     }
 }

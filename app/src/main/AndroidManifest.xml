@@ -22,6 +22,8 @@
 
         <activity android:name=".toobigimages.TooBigImagesActivity"/>
 
+        <activity android:name=".computeonmain.ComputeOnMainThreadActivity"/>
+
     </application>
 
 </manifest>

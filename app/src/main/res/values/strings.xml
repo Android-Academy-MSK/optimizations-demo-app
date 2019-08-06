@@ -2,4 +2,7 @@
     <string name="app_name">Really Janky App</string>
     <string name="too_big_images">Too Big Images</string>
     <string name="optimise_previews">Optimise previews</string>
+    <string name="compute_on_main_thread">Compute On Main Thread</string>
+    <string name="calculate_something_on_main_thread">Calculate something on main thread</string>
+    <string name="adjust_work_intensity">Adjust work intensity</string>
 </resources>

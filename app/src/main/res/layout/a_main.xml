@@ -10,7 +10,11 @@
     <Button android:id="@+id/btnTooBigImages"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            style="?android:colorButtonNormal"
             android:text="@string/too_big_images"/>
+
+    <Button android:id="@+id/btnComputeOnMain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/compute_on_main_thread"/>
 
 </LinearLayout>

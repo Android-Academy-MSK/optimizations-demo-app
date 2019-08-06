@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <Switch android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/optimizationsSwitch"
+                android:text="@string/calculate_something_on_main_thread"
+                android:checked="true"
+                android:padding="8dp"/>
+
+        <TextView android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="@string/adjust_work_intensity"
+                  android:padding="8dp"
+                  android:textColor="#000"/>
+
+        <SeekBar android:layout_width="match_parent"
+                 android:layout_height="wrap_content"
+                 android:id="@+id/seekBar"
+                 android:progress="30"
+                 android:min="1"
+                 android:max="35"
+                 android:paddingBottom="8dp"
+                 android:paddingTop="8dp"/>
+
+        <ImageView android:id="@+id/imageView"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_gravity="center"/>
+    </LinearLayout>
+</ScrollView>
