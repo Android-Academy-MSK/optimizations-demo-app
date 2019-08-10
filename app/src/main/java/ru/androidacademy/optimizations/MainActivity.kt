@@ -4,6 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.a_main.*
 import ru.androidacademy.optimizations.computeonmain.ComputeOnMainThreadActivity
+import ru.androidacademy.optimizations.gcpressure.GCPressureActivity
 import ru.androidacademy.optimizations.toobigimages.TooBigImagesActivity
 
 class MainActivity : AppCompatActivity() {
@@ -18,6 +19,10 @@ class MainActivity : AppCompatActivity() {
 
         btnComputeOnMain.setOnClickListener {
             ComputeOnMainThreadActivity.start(this)
+        }
+
+        btnGCPressure.setOnClickListener {
+            GCPressureActivity.start(this)
         }
     }
 }

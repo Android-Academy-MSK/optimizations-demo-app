@@ -24,6 +24,8 @@
 
         <activity android:name=".computeonmain.ComputeOnMainThreadActivity"/>
 
+        <activity android:name=".gcpressure.GCPressureActivity"/>
+
     </application>
 
 </manifest>

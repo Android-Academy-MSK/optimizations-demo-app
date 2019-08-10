@@ -5,4 +5,7 @@
     <string name="compute_on_main_thread">Compute On Main Thread</string>
     <string name="calculate_something_on_main_thread">Calculate something on main thread</string>
     <string name="adjust_work_intensity">Adjust work intensity</string>
+    <string name="gc_pressure">GC Pressure</string>
+    <string name="do_something_very_important">Do something very important</string>
+    <string name="look_on_me">look on my work in memory profiler</string>
 </resources>
