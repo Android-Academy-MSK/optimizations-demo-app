@@ -10,8 +10,8 @@ class JankyApp : Application() {
     override fun onCreate() {
         super.onCreate()
         Takt.stock(this)
-            .seat(Seat.BOTTOM_RIGHT)
-            .color(Color.BLACK)
+            .seat(Seat.TOP_RIGHT)
+            .color(Color.WHITE)
     }
 
 }
