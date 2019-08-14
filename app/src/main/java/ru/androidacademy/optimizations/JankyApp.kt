@@ -11,7 +11,9 @@ class JankyApp : Application() {
         super.onCreate()
         Takt.stock(this)
             .seat(Seat.TOP_RIGHT)
+            .size(20.0f)
             .color(Color.WHITE)
+            .useCustomControl()
     }
 
 }
